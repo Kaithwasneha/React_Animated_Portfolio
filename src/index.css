@@ -1,0 +1,307 @@
+:root {
+  --box-shadow-bg: 5px 5px 10px 10px rgba(0, 180, 255, 0.5);
+  --bg-color: rgb(40, 47, 97);
+
+  --blue-color: #00b4ff;
+}
+body {
+  background-color: rgb(11, 26, 51);
+  color: white;
+}
+
+/* Navbar Section  */
+
+a {
+  text-decoration: none;
+  /* color: hsl(328, 90%, 49%); */
+  color: var(--blue-color);
+}
+
+.nav_bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav_bar .nav_items {
+  padding: 16px;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.nav_bar .nav_items:hover {
+  border-bottom: 3px solid var(--blue-color);
+}
+
+/* Home Section */
+.home {
+  height: 80vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.home .left {
+  background-color: var(--bg-color);
+  /* background-color: rgb(58, 51, 51); */
+  width: 620px;
+  text-align: center;
+  padding: 30px;
+  border-radius: 10px;
+  border: 1px solid var(--blue-color);
+  box-shadow: var(--box-shadow-bg);
+}
+.home .right .img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: yellow; */
+  /* width: 350px;
+  height: 350px; */
+}
+
+.home .right .img img {
+  width: 270px;
+  height: 250px;
+  border-radius: 100%;
+  border: 5px solid var(--blue-color);
+  animation-name: imgAnimate;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes imgAnimate {
+  0% {
+    border-color: blue;
+    transform: translate(0, 0px);
+    box-shadow: 10px 20px 100px 50px blue;
+  }
+  25% {
+    border-color: rgb(239, 244, 11);
+    transform: translate(0, 0px);
+    box-shadow: 10px 20px 100px 50px rgb(239, 244, 11);
+  }
+  50% {
+    border-color: rgb(12, 12, 199);
+    transform: translate(10px, 0px);
+    box-shadow: 10px 20px 100px 50px blue;
+  }
+  75% {
+    border-color: rgb(130, 270, 160);
+    transform: translate(-0, 10px);
+    box-shadow: 10px 20px 100px 50px rgb(130, 270, 160);
+  }
+  100% {
+    border-color: rgb(50, 55, 205);
+    transform: translate(0, -0px);
+    box-shadow: 10px 20px 100px 50px rgb(50, 55, 205);
+  }
+}
+
+/* Experience section  */
+
+.ex {
+  width: 900px;
+}
+
+.ex-items {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--bg-color);
+  margin: 20px;
+  padding: 30px;
+  width: 800px;
+  border-radius: 10px;
+  border: 1px solid var(--blue-color);
+  box-shadow: var(--box-shadow-bg);
+  overflow: hidden;
+}
+
+/* skills */
+
+.skills {
+  width: 900px;
+}
+
+.skills .items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  /* width: 700px; */
+  margin: auto;
+  /* background-color: yellow; */
+}
+
+.skills .items .item {
+  background-color: black;
+  width: calc(33.33%);
+  margin: 35px;
+  text-align: center;
+  padding: 20px;
+  border-radius: 10px;
+  border: 1px solid var(--blue-color);
+  box-shadow: var(--box-shadow-bg);
+}
+
+.skills .items .item img {
+  width: 70px;
+}
+
+/* project Section  */
+
+/* contact section */
+
+.contact-icon {
+  height: 30vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contact-icon .items {
+  background-color: black;
+  margin: 10px;
+  width: 70px;
+  height: 70px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100%;
+  border: 1px solid var(--blue-color);
+  /* box-shadow: var(--box-shadow-bg); */
+}
+
+.contact-icon .items:hover {
+  background-color: var(--bg-color);
+  box-shadow: var(--box-shadow-bg);
+}
+
+.contact-icon .items .icons {
+  font-size: 2rem;
+  color: white;
+}
+
+/* Responsive css  */
+
+/* mobile styles */
+@media (min-width: 360px) and (max-width: 770px) {
+  /* Navbar.css */
+
+  .nav_bar .nav_items {
+    padding: 8px;
+    font-size: 1rem;
+    font-weight: bold;
+  }
+
+  /* Home Section  */
+
+  .home .left {
+    background-color: var(--bg-color);
+    /* background-color: rgb(58, 51, 51); */
+    width: 420px;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid var(--blue-color);
+    box-shadow: var(--box-shadow-bg);
+  }
+  .home .right .img img {
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    border: 5px solid var(--blue-color);
+    animation-name: imgAnimate;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+  }
+
+  @keyframes imgAnimate {
+    0% {
+      border-color: blue;
+      transform: translate(0, 0px);
+      box-shadow: 10px 20px 100px 50px blue;
+    }
+    25% {
+      border-color: rgb(239, 244, 11);
+      transform: translate(0, 0px);
+      box-shadow: 10px 20px 100px 50px rgb(239, 244, 11);
+    }
+    50% {
+      border-color: rgb(12, 12, 199);
+      transform: translate(10px, 0px);
+      box-shadow: 10px 20px 100px 50px blue;
+    }
+    75% {
+      border-color: rgb(130, 270, 160);
+      transform: translate(0, 10px);
+      box-shadow: 10px 20px 100px 50px rgb(130, 270, 160);
+    }
+    100% {
+      border-color: rgb(50, 55, 205);
+      transform: translate(0, 0px);
+      box-shadow: 10px 20px 100px 50px rgb(50, 55, 205);
+    }
+  }
+
+  /* .ex {
+    width: 900px;
+  } */
+
+  .ex-items {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--bg-color);
+    margin: 10px;
+    padding: 10px;
+    width: 350px;
+    border-radius: 10px;
+    border: 1px solid var(--blue-color);
+    box-shadow: var(--box-shadow-bg);
+  }
+
+  /* skills section  */
+  .skills {
+    width: 300px;
+  }
+
+  .skills .items {
+    display: flex;
+    /* justify-content: center; */
+
+    align-items: center;
+    flex-wrap: wrap;
+    /* width: 700px; */
+    margin: auto;
+    /* background-color: yellow; */
+    width: 250px;
+  }
+
+  .skills .items .item {
+    background-color: black;
+    width: 150px;
+    margin: 35px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid var(--blue-color);
+    box-shadow: var(--box-shadow-bg);
+  }
+
+  .skills .items .item img {
+    width: 20px;
+  }
+
+  /* Contact Section  */
+
+  .contact-icon .items {
+    margin: 10px;
+    width: 70px;
+    height: 50px;
+  }
+
+  .contact-icon .items .icons {
+    font-size: 1.5rem;
+  }
+}

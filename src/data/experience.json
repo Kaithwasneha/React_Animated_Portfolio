@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "role": "Frontend/ReactJS Developer",
+    "organisation": "SODE (Distance Education School)",
+    "startDate": "July, 2024",
+    "endDate": "Present",
+    "location": "New Delhi,India",
+    "experiences": [
+      "Contributed to the development of a CRM (Customer Relationship Management) system, focusing on enhancing user experience and streamlining customer interactions through efficient workflows.",
+      "Led the implementation of responsive front-end design using modern web technologies, ensuring seamless user interfaces across multiple devices and optimizing the overall user experience."
+    ],
+
+    "imageSrc": "company/sode.png"
+  },
+  {
+    "id": 2,
+    "role": "MERN Stack Developer(Internship)",
+    "organisation": "Learn And Build",
+    "startDate": "May, 2023",
+    "endDate": "July, 2023",
+    "location": "Jaipur(Rajasthan), India",
+    "experiences": [
+      "Contributed to a real-time project, gaining hands-on experience in implementing practical solutions and addressing dynamic requirements.",
+      "Collaborated with a team to design and implement coding logic for a project, enhancing my ability to optimize workflows and deliver high-quality results."
+    ],
+
+    "imageSrc": "company/lnb.png"
+  },
+  {
+    "id": 3,
+    "role": "Web Developement(Internship)",
+    "organisation": "TECHNOHACKS",
+    "startDate": "July, 2023",
+    "endDate": "August, 2023",
+    "location": "Nashik, India",
+    "experiences": [
+      "Successfully completed assigned tasks within deadlines, demonstrating strong time management and problem-solving skills.",
+      "Gained valuable knowledge and insights while working on various tasks, continuously improving my skills and understanding of the subject matter."
+    ],
+
+    "imageSrc": "company/TechnoHacks.png"
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "key": 1,
+    "title": "Gemini Clone",
+    "imageSrc": "assets/projects/gemini.png",
+    "description": "Gemini AI Clone: Your go-to AI assistant, delivering precise answers to your questions quickly and effortlessly.",
+    "demo": "https://neha-gemini-clone.netlify.app/",
+    "source": "https://www.github.com"
+  },
+  {
+    "key": 2,
+    "title": "YouTube Clone",
+    "imageSrc": "assets/projects/youtube.png",
+    "description": "A streamlined YouTube clone with essential features: watch, like, comment, subscribe, and track views in real-time.",
+    "demo": "https://neha-youtube-clone.netlify.app/",
+    "source": "https://www.github.com"
+  },
+  {
+    "key": 3,
+    "title": "Weather Application",
+    "imageSrc": "assets/projects/weatherApp.png",
+    "description": "Real-time weather app delivering accurate forecasts, current conditions, and local updates at your fingertips.",
+    "demo": "https://weatherapp-seven-pied.vercel.app/",
+    "source": "https://github.com/Kaithwasneha/Weather_App"
+  }
+]
