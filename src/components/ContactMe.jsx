@@ -18,7 +18,7 @@ const ContactMe = () => {
           <a href='https://www.linkedin.com/in/neha-kaithwas-6a3984227' target='_blank' className="items"><FaLinkedin className='icons' /></a>
           <a href='https://github.com/Kaithwasneha' target='_blank' className="items"><FaGithubSquare className='icons' /></a>
           <a href='mailto:kaithwasneha720@gmail.com' target='_blank' className="items"><SiGmail className='icons' /></a>
-          <a href='' target='_blank' className="items"></a>
+     
         </div>
       </div>
     </>
